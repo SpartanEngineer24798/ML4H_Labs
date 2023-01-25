@@ -1,0 +1,44 @@
+run;
+
+conda activate edde
+
+before you install packages
+
+run;
+
+anaconda-navigator
+
+and run the navigator on 'eddie' environment
+
+
+
+GIT TUTORIAL
+install github command line client
+and run 'gh auth login' to enable easy login to github client
+
+install git;
+sudo apt install git
+
+starting git on a given directory;
+git init
+**creates a repository for the given
+
+checking git status;
+git status
+**checks the difference between git repository vs. what is on your computer
+
+staging commit;
+git add "MY_FILE"
+or
+git add *
+
+pushing the commit onto the repository;
+git commit -m 'MESSAGE_NOTED_FOR_THIS_COMMIT'
+
+
+CONNECTING_TO_GITHUB: first, create a new repository on github
+then run the command (this will also be available when you make github);
+git remote add origin https://github.com/USERNAME/GITNAME
+
+then pushing it into github needs;
+git push -u origin main
